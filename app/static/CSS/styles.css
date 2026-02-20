@@ -1,0 +1,215 @@
+body {
+    margin: 0;
+    font-family: 'segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f9fa;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* header */
+header {
+    background:  #1e4978;
+    color: #0e0404;
+    padding: 20px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: rgb(46, 7, 7);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700;
+
+}
+
+/* footer */
+footer {
+    background-color: #343a40;
+    color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 60px;
+    box-shadow: 0 -2px 0px rgba(0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Flash messages */
+
+.flash.success {color: green;}
+.flash.denger {color: red;}
+.flash.info {color: blue;}
+
+/* login form */
+.login-box {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form-group{
+    margin-bottom: 20px;
+
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100px;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 6px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.1);
+}
+
+.task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+
+}
+
+.task-form input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task-form .btn{
+    padding: 12px 20px;
+    font-size: 16px;
+}
+
+.task-table {
+    width: 100px;
+    border-collapse: collapes;
+
+}
+
+.task-table th,
+.task-table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: white;
+}
+
+.badge.padding {
+    background-color: #ffc107;
+}
+
+.badge.padding {
+    background-color: #17a2b8;
+}
+
+.badge.padding {
+    background-color: #28a745;
+}
+
+.btn-small {
+    font-size: 12px;
+    padding: 6px 12px;
+    border: none;
+    background-color: #39424a;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-small:hover{
+    background-color: #7c8790;
+}
+
+.btn-clear {
+    background-color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
+
+
