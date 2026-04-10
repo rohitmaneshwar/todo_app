@@ -4,7 +4,7 @@ auth_bp = Blueprint('auth', __name__)
 
 USER_CREDENTIALS = {
     'username':'root',
-    'password':'root_rohit_110801'
+    'password':'1234'
 }
 
 @auth_bp.route('/login', methods = ["GET", "POST"])
